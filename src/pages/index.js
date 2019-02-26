@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby";
 
 const Layout = ({data}) => {
   const { edges } = data.allMarkdownRemark
-  console.log(edges)
   return (
     <div>
       <Header />
